@@ -14,17 +14,17 @@ for (let i = 0; i < students.length; i++) {
 }
 
 // Steg 2: Plocka ut namn och betyg med destructuring
-// for (const student of students) {
-//     const { name, grades } = student;
-//     console.log(name, "har betyg:", grades);
-// }
+for (const student of students) {
+    const { name, grades } = student;
+    console.log(name, "har betyg:", grades);
+}
 
 // Steg 3: Räkna ut medelvärde med map och arrow function
-// const presentations = students.map(student => {
-//     const avg = student.grades.reduce((sum, grade) => sum + grade, 0) / student.grades.length;
-//     return `${student.name} har medelvärde ${Math.round(avg)}`;
-// });
-// console.log(presentations);
+const presentations = students.map(student => {
+    const avg = student.grades.reduce((sum, grade) => sum + grade, 0) / student.grades.length;
+    return `${student.name} har medelvärde ${Math.round(avg)}`;
+});
+console.log(presentations);
 
 // Steg 4: Diskutera
 // Hur kan du kombinera flera ES6-koncept för att lösa större problem?

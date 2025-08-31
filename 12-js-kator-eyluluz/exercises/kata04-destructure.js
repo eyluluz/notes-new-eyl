@@ -1,6 +1,6 @@
 // Kata 4: Destructuring av objekt
 // Syfte: Lära sig plocka ut värden ur objekt på ett enklare sätt
-
+/*
 console.log("=== Kata 4: Destructuring Objects ===");
 
 // Steg 1: Startkod - Plocka ut värden på "gammalt" sätt

@@ -10,9 +10,9 @@ for (let i = 0; i < fruits.length; i++) {
 }
 
 // Steg 2: Gör samma sak med for...of
-// for (const fruit of fruits) {
-//     console.log("Jag gillar", fruit);
-// }
+for (const fruit of fruits) {
+    console.log("Jag gillar", fruit);
+}
 // Testa och se att det fungerar likadant
 
 // Steg 3: Diskutera

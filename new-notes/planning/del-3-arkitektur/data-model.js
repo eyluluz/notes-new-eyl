@@ -1,0 +1,1 @@
+// Exempel på datastrukturer (kommenterad kod)

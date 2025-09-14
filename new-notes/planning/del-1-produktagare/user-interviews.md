@@ -1,0 +1,2 @@
+- Person 1: [Liam] - telefon eller paper, spel, calorier, det går långsamt vill ha suggestions, detaljer, auto suggestions
+- Person 2: [Melvin] - dator, film, räkna, kan inte öppna notes samtidigt som annat, stories, 

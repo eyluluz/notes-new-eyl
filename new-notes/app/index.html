@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Notes App</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <div id="app">
+        <h1>Notes</h1>
+      
+      <h2 id="startInfo">All School Work</h2>
+      <button id="createBtn" onclick="showCreateForm()">+</button>
+
+      <div id="notesList"></div>
+
+      <div id="createForm" style="display: none">
+        <h2>New Note</h2>
+        <input type="text" id="titleInput" placeholder="Title" />
+        <textarea id="textInput" placeholder="Your thoughts..."></textarea>
+        <button onclick="saveNote()">Save</button>
+        <button onclick="hideCreateForm()">Cancel</button>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
